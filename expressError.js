@@ -5,3 +5,5 @@ class ExpressError extends Error {
         this.status = status;
     }
 };
+
+module.exports = ExpressError;
